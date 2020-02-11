@@ -1,2 +1,3 @@
-# 6thSemLab
-6th sem lab
+# MAD
+Mobile Application Development
+
