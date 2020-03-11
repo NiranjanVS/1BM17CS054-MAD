@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         sub = (Button)findViewById(R.id.sub);
         mul = (Button)findViewById(R.id.mul);
         div = (Button)findViewById(R.id.div);
-        cls = (Button)findViewById(R.id.cls);
         ip1 = findViewById(R.id.ip1);
         ip2 = findViewById(R.id.ip2);
         tv1 = findViewById(R.id.tv1);
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         sub.setOnClickListener(this);
         mul.setOnClickListener(this);
         div.setOnClickListener(this);
-        cls.setOnClickListener(this);
+
     }
 
     @Override
@@ -59,11 +58,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
             case R.id.div : operator = "/";
                 result = num1/num2;
                 break;
-            case R.id.cls : operator = "";
-            ip1.setText(" ");
-            ip2.setText(" ");
-            result = 0;
-            break;
             default : break;
         }
         tv1.setText(operator);
