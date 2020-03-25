@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
                 showMessage("Error","Please enter all the values");
                 return;
             }
-            db.execSQL("insert into student values ("+roll.getText()+","+name.getText()+","+marks.getText()+");");
+            db.execSQL("INSERT INTO student69 VALUES('"+roll.getText()+"','"+name.getText()+ "','"+marks.getText()+"');");
             showMessage("Success","Record added");
             clearText();
         }
