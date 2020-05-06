@@ -1,0 +1,2 @@
+ Develop a mobile application that uses Layout Managers and event listeners.
+Description: Develop an application that takes the following details from the user: student name, USN, Semester (drop down menu), section (drop down menu) as well as department (drop down menu). Once the user clicks on SUBMIT button all these read information to be displayed but in a different window. Also, if any one of the fields is left blank then an error message to be generated on clicking the SUBMIT button.

@@ -1,4 +1,7 @@
-Logic implemeted is same as the writeup.
-Location is fetched by using other button instead of using the Insert button iteself.
-Extra import statements added.
-clearText() function added which clears the editText.
+Develop a mobile application that makes use of a database to insert, delete and display the
+faculty data.
+Description: Create an application to support Insert, Delete and View functionality for
+Database. The application should accept the current GPS location address. After accepting
+the input, User can Insert data (Id, Address). Make provision for the data deletion with Id.
+View functionality should support: Viewing data of a particular ID or a address(Inputs
+should be accepted from user).
